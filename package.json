@@ -7,6 +7,8 @@
   "author": "ursus-max",
   "devDependencies": {
     "jest": "^29.3.0"
-  }
-  
+  },
+  "scripts": {
+      "test": "jest"
+    }
 }
