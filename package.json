@@ -1,0 +1,12 @@
+{
+  "name": "evo_bootcamp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ursus-max/eveolution-bootcamp.git",
+  "license": "MIT",
+  "author": "ursus-max",
+  "devDependencies": {
+    "jest": "^29.3.0"
+  }
+  
+}
