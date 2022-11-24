@@ -15,5 +15,6 @@ import { getRectangleInfo } from '../js/rectangle';
 
 test ('get rectangle info correct', () => {
     const info = getRectangleInfo (5, 5);
-    expect(info).toBe('The perimeter of a rectangle is 20 and the area is 25')
+    expect(getRectangleArea(5,5)).toBe(25)
+    expect(getRectanglePerimeter(5,5)).toBe(20);
 });
