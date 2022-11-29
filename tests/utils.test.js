@@ -15,6 +15,5 @@ import { getRectangleInfo } from '../js/rectangle';
 
 test ('get rectangle info correct', () => {
     const info = getRectangleInfo (5, 5);
-    expect(getRectangleArea(5,5)).toBe(25)
-    expect(getRectanglePerimeter(5,5)).toBe(20);
+    console.assert(info, "The perimeter of a rectangle is 20 and the area is 25")
 });
